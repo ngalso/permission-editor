@@ -1,5 +1,4 @@
 # Permission Editor
----
 This is a package that gives a UI to manage the roles and permissions for Spatie Laravel Permission
 ## How to use
   1. Make sure to install the spatie/laravelk-permission package and configure it
