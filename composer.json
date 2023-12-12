@@ -1,0 +1,27 @@
+{
+    "name": "ngalso/permission-editor",
+    "description": "Packages to manage the application Roles and Permissions",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ngalso\\PermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ngalso\\PermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Steve Fontaine",
+            "email": "2077905+stevefontaine@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^6.2.0"
+    }
+}
